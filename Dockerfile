@@ -1,5 +1,6 @@
 FROM        debian:8.0
 MAINTAINER  andystanton
+ENV         LANG C.UTF-8
 ENV         GO_VERSION 1.4.2
 ENV         PATH $PATH:/usr/local/go/bin
 RUN         apt-get update -qq -y && \
